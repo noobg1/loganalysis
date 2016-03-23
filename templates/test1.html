@@ -1,0 +1,41 @@
+{% block body %}
+ 
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <!--<div id="chart_div"  style="width: 900px; height: 300px;"><div>-->
+  <div id="chart_div"  style="width: 900px; height: 300px;"><div>
+      
+  <!--<script type="text/javascript">
+    function test_func(data) {
+        console.log(typeof(data));
+        for(i=0 ;i<data.length;i++){
+          console.log(data[0][0],data[0][1])
+        }
+        return data;
+    }
+    test_func({{ resourceCountList|safe }})
+</script>-->
+
+<script type='text/javascript'>//<![CDATA[ 
+ 
+google.load('visualization', '1', {packages: ['corechart', 'bar','table']});
+console.log("drawing");
+google.setOnLoadCallback(drawBasic);
+console.log("drawing1");
+
+var json = {{resultreturn|safe}} 
+function drawBasic() {
+    var json_table = new google.visualization.BarChart(document.getElementById('chart_div'));
+  var json_data = new google.visualization.arrayToDataTable((json), 0.6);
+  json_table.draw(json_data, {showRowNumber: true});
+  
+
+}
+
+      
+//]]>  
+ 
+</script>
+
+ 
+ 
+{% endblock %}
