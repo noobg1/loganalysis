@@ -1,32 +1,14 @@
 resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 990)]
-resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 990)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-avgResponseTime(sec)25.284
-BytesTransferred (bytes)8444000
-IPs from same GMT[((u'+0200', u'10.109.125.199'), 955), ((u'+0200', u'10.109.119.107'), 37), ((u'+0200', u'10.147.138.92'), 8)]
- No of GetPost requests[(u'POST', 998), (u'GET', 2)]
-resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 990)]
-resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 990)]
-resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 990)]
-resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 990)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-ipsAccessingCountList[(u'10.109.125.199', 955)]
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-BytesTransferred (bytes)8444000
-IPs from same GMT[((u'+0200', u'10.109.125.199'), 955), ((u'+0200', u'10.109.119.107'), 37), ((u'+0200', u'10.147.138.92'), 8)]
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-responseCodeToCountList[(u'302', 953), (u'200', 47)]
-BytesTransferred (bytes)8444000
- No of GetPost requests[(u'POST', 998), (u'GET', 2)]
+ipsAccessingCountList[(u'10.109.125.199', 2525)]
+resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 1747)]
+ No of GetPost requests[(u'POST', 1763), (u'GET', 1237)]
+responseCodeToCountList[(u'302', 1288), (u'200', 1712)]
+avgResponseTime(sec)28.601
+BytesTransferred (bytes)25332000
+getPostRequestList[(u'POST', 1763), (u'GET', 1237)]
+resourceCountList[(u'/cuic/report/reportviewer/ReportViewer.htmx', 1747)]
+ipsAccessingCountList[(u'10.109.125.199', 2525)]
+avgResponsetimeValue28.601
+bytesTransferredValue25332000
+gmtLocationList[((u'+0200', u'10.109.125.199'), 2525), ((u'+0200', u'10.109.119.107'), 459), ((u'+0200', u'10.147.138.92'), 16)]
+getPostRequestList[(u'POST', 1763), (u'GET', 1237)]
